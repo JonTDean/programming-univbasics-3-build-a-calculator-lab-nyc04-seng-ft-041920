@@ -26,7 +26,7 @@ def square_root(num)
     while(sqrt != temp)
         temp = sqrt;
 
-        sqrt = ( number/temp + temp) / 2;
+        sqrt = ( num/temp + temp) / 2;
     end
     
     return sqrt
